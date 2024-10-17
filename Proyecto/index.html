@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego COBAEH</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="text-center py-3">
+        <h1>Juego COBAEH</h1>
+    </header>
+    <main class="d-flex flex-column align-items-center bg-secondary">
+        <div id="instructions" class="text-white mb-3">
+            <p>Elimina todos los COBAEHs que aparecen.</p>
+            <p>Trata de eliminar los más que puedas sin chocar con ellos.</p>
+            <p>Solo cuentas con 3 vidas.</p>
+        </div>
+        <div class="game-container">
+            <canvas id="gameCanvas" width="800" height="600"></canvas>
+        </div>
+    </main>
+    <footer class="text-center py-3">
+        <p>Derechos de autores: Cristopher Figueroa, Daniel Martinez y Emiliano Varela</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
